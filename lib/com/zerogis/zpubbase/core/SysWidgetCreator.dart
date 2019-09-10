@@ -13,7 +13,7 @@ import 'package:zpub_bas/com/zerogis/zpubbase/util/StringRes.dart';
  * 邮箱：1250393285@qq.com
  * 公司：武汉智博创享科技有限公司
  */
-class WidgetCreator
+class SysWidgetCreator
 {
   /*
    * 创建公有网络进度栏<br/>

@@ -65,7 +65,7 @@ abstract class FuctionStateBase<T extends StatefulWidget> extends State<T> imple
   Color mTitleBarBg;
 
   //网络进度栏
-  Widget mProgressBar = WidgetCreator.createCommonProgressBar();
+  Widget mProgressBar = SysWidgetCreator.createCommonProgressBar();
 
   //是否显示网络进度栏
   bool mShowProgress = false;
@@ -394,7 +394,7 @@ abstract class FuctionStateBase<T extends StatefulWidget> extends State<T> imple
   void showProgressBar({String text})
   {
     mShowProgress = true;
-    mProgressBar = WidgetCreator.createCommonProgressBar(text: text);
+    mProgressBar = SysWidgetCreator.createCommonProgressBar(text: text);
     hideSoftInput();
   }
 
@@ -415,7 +415,7 @@ abstract class FuctionStateBase<T extends StatefulWidget> extends State<T> imple
   void resetProgressBar({String text})
   {
     mShowProgress = true;
-    mProgressBar = WidgetCreator.createCommonProgressBar(text: text);
+    mProgressBar = SysWidgetCreator.createCommonProgressBar(text: text);
   }
 
   /*
@@ -435,7 +435,7 @@ abstract class FuctionStateBase<T extends StatefulWidget> extends State<T> imple
   void hideProgressBar()
   {
     mShowProgress = false;
-    mProgressBar = WidgetCreator.createCommonProgressBar();
+    mProgressBar = SysWidgetCreator.createCommonProgressBar();
   }
 
   /*
