@@ -16,10 +16,7 @@ export './com/zerogis/zpubbase/manager/StateManager.dart';
 export './com/zerogis/zpubbase/util/CxTextUtil.dart';
 
 // Log统一管理类
-export './com/zerogis/zpubbase/util/CxTextUtil.dart';
-
-// 类似Android资源strings.xml文件相关
-export './com/zerogis/zpubbase/util/CxTextUtil.dart';
+export './com/zerogis/zpubbase/util/Log.dart';
 
 
 
