@@ -9,6 +9,11 @@
 5：注意：zpub_base的添加适用A类型项目，B类型项目，C类型项目 即不同类型的项目通用的类
 
 
+#使用方法
+zpub_bas:
+     git:
+       url: git://github.com/zxylovewl1/zpub_bas.git
+
 
 
 
