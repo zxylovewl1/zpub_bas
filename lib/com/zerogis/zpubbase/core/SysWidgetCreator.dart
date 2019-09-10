@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:zpub_bas/com/zerogis/zpubbase/util/CxTextUtil.dart';
-import 'package:zpub_bas/com/zerogis/zpubbase/util/StringRes.dart';
+import 'package:zpub_bas/com/zerogis/zpubbase/resource/StringRes.dart';
 
 /*
  * 功能：组件库,用于创建常用的组件：类似Android中layout文件中common_progressbar.xml相关
