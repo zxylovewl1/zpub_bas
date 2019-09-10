@@ -4,7 +4,7 @@ library zpub_bas;
 export './com/zerogis/zpubbase/plugin/FuctionStateFulBase.dart';
 
 // 组件库,用于创建常用的组件：类似Android中layout文件中common_progressbar.xml相关
-export './com/zerogis/zpubbase/core/WidgetCreator.dart';
+export './com/zerogis/zpubbase/core/SysWidgetCreator.dart';
 
 // 数据响应事件
 export './com/zerogis/zpubbase/listener/HttpListener.dart';

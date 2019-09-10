@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:weui/weui.dart';
-import 'package:zpub_bas/com/zerogis/zpubbase/core/WidgetCreator.dart';
+import 'package:zpub_bas/com/zerogis/zpubbase/core/SysWidgetCreator.dart';
 import 'package:zpub_bas/com/zerogis/zpubbase/listener/HttpListener.dart';
 import 'package:zpub_bas/com/zerogis/zpubbase/manager/StateManager.dart';
 import 'package:zpub_bas/com/zerogis/zpubbase/resource/ColorRes.dart';
