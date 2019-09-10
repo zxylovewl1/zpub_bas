@@ -19,4 +19,8 @@ export './com/zerogis/zpubbase/util/CxTextUtil.dart';
 export './com/zerogis/zpubbase/util/Log.dart';
 
 
+// 颜色类似Android资源color.xml文件相关
+export './com/zerogis/zpubbase/resource/ColorRes.dart';
+
+
 
