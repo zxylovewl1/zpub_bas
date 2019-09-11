@@ -15,7 +15,7 @@ class Log
    */
   static final String TAG = "输出";
 
-  static const bool isDebug = false;
+  static bool isDebug = false;
 
   static void v(String tag, Object msg)
   {
