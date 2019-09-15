@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:zpub_bas/com/zerogis/zpubbase/util/CxTextUtil.dart';
 import 'package:zpub_bas/com/zerogis/zpubbase/resource/StringRes.dart';
+import 'package:zpub_bas/com/zerogis/zpubbase/util/CxTextUtil.dart';
 
 /*
  * 功能：组件库,用于创建常用的组件：类似Android中layout文件中common_progressbar.xml相关
@@ -47,6 +47,14 @@ class SysWidgetCreator
   }
 
   /*
+   * 创建公共网络图片:支持本地，iconfont，和网络图片<br/>
+   */
+  static Widget createCommonSizedBox({double width, double height})
+  {
+    return new SizedBox(width: width, height: height);
+  }
+
+  /*
    * 创建一条横线<br/>
    */
   static Widget createCommonDevider()
@@ -57,10 +65,10 @@ class SysWidgetCreator
   /*
    * 创建一条竖线<br/>
    */
-  static Widget createCommonVerticalDevider()
+  static Widget createCommonVerticalDevider({double height: 30})
   {
     Widget devider = new Container(
-      height: 30.0,
+      height: height,
       width: 1.0,
       color: Colors.grey.withOpacity(0.5),
       margin: const EdgeInsets.only(left: 10.0, right: 10.0),
@@ -68,7 +76,10 @@ class SysWidgetCreator
     return devider;
   }
 
-  static Widget createCommonVerticalDeviderOld()
+  /*
+   * 创建一条竖线<br/>
+   */
+  static Widget createVerticalDevider()
   {
     return new VerticalDivider(color: Colors.grey);
   }
