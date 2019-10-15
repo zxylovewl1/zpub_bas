@@ -65,12 +65,12 @@ class SysWidgetCreator
   /*
    * 创建一条竖线<br/>
    */
-  static Widget createCommonVerticalDevider({double height: 30})
+  static Widget createCommonVerticalDevider({double height: 30, double width: 1.0, Color color})
   {
     Widget devider = new Container(
       height: height,
       width: 1.0,
-      color: Colors.grey.withOpacity(0.5),
+      color: color ?? Colors.grey.withOpacity(0.5),
       margin: const EdgeInsets.only(left: 10.0, right: 10.0),
     );
     return devider;
